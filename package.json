@@ -10,7 +10,7 @@
     "morgan": "~1.6.1",
     "nodemon": "^1.10.2",
     "scripts": {
-    "start": "test.js"
+    "start": "node test.js"
 }
   },
   "devDependencies": {
