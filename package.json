@@ -9,7 +9,6 @@
     "express": "~4.13.1",
     "morgan": "~1.6.1",
     "nodemon": "^1.10.2"
-  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-image-optimization": "^0.1.3"
