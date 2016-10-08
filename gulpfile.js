@@ -9,7 +9,13 @@ gulp.task('images', function(cb) {
     })).pipe(gulp.dest('dist/images/')).on('end', cb).on('error', cb);
 });
 
+gulp.task('views', function() {
+    gulp.src(['src/index.html', 'ng-grid/ng-grid-2.0.8.debug.js'])
+        .pipe(gulp.dest('dist'))
+});
+
+
 // Default task
-gulp.task('default', ['images'], function() {
+gulp.task('default', ['images', 'views'], function() {
     gulp.run('images');
 });
