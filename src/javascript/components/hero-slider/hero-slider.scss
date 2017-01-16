@@ -1,0 +1,18 @@
+.hero-slider {
+  margin: 0 auto;
+  padding: 0px;
+  width: 50%;
+  color: #333;
+  height: 16%;
+  float: left;
+}
+
+.slick-next{
+  left: 90%;
+}
+
+
+.slick-prev{
+  left: 5%;
+  z-index: 1;
+}
